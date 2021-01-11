@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="cleanbiotech">
+    <meta name="description" content>
+    <meta name="keywords" content>
+
+    <title>cleanbiotech - N-V.H.P Sterilizer</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="../images/icon/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="../images/icon/favicon.png"/>
+
+    <!-- style -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    
+    <!-- webfont -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div id="wrap">
+    <!-- header -->
+    <header id="header">
+        <h1>
+            <a href="../index.html">
+                <img src="../images/logo/logo.png" alt="크린바이오텍">
+            </a>
+        </h1>
+        <div id="lnb">
+            <nav>
+                <ul>
+                    <li><a href="../product/Sterilization.html">제품안내</a>
+                        <ul>
+                        <li><a href="../product/Sterilization.html">멸균장비</a></li>
+                        <li><a href="../product/Disinfection.html">소독장비</a></li>
+                        <li><a href="../product/self.html">셀프공간소독</a></li>
+                        <li><a href="../product/disinfectant.html">멸균제</a></li>
+                        </ul>
+                    </li>
+                <li><a href="../service/Introduce.html">멸균서비스</a>
+                    <ul>
+                    <li><a href="../service/Introduce.html">서비스소개</a></li>
+                    <li><a href="../service/Technology.html">서비스기술</a></li>
+                    <li><a href="../service/Breakdown.html">서비스사례</a></li>
+                    </ul>
+                </li>
+                <li><a href="../support/faq.html">고객지원</a>
+                    <ul>
+                    <li><a href="../support/faq.html">FAQ</a></li>
+                    <li><a href="../support/q&a.html">Q&A</a></li>
+                    <li><a href="../support/as.html">A/S안내</a></li>
+                    <li><a href="../support/Questions.html">자주묻는 질문</a></li>
+                    </ul>
+                </li>
+                <li><a href="../about/about.html">기업소개</a>
+                    <ul>
+                    <li><a href="../about/about.html">CEO인사말</a></li>
+                    <li><a href="../about/history.html">연혁</a></li>
+                    <li><a href="../about/vision.html">비전</a></li>
+                    <li><a href="../about/ci.html">CI</a></li>
+                    <li><a href="../about/map.html">찾아오시는 길</a></li>
+                    </ul>
+                </li>
+                <li><a href="#a">자료실</a>
+                    <ul>
+                    <li><a href="#a">카달로그</a></li>
+                    <li><a href="#a">test</a></li>
+                    <li><a href="#a">test</a></li>
+                    <li><a href="#a">test</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </nav>
+            <div></div>
+        </div>
+            <div class="icon">
+                <ul>
+                    <li><a href="#">
+                        <i class="fas fa-search"></i>
+                        <span>search</span>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fas fa-globe"></i>
+                        <span>language</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+</div>
+    <!--//header end--> 
+
+    <!-- sub_banner-->
+    <div class="sub_banner">
+        <div class="visual about">
+            <div class="container">
+                <h2>MAP</h2>
+            </div>
+        </div>
+        <div class="breadcrumb">
+            <div class="container">
+                <div class="path">
+                    <ul>
+                        <li>
+                            <a href="../index.html">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </a>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <a href="#">About<i class="fa fa-caret-square-o-down" aria-hidden="true"></i>
+                            </a>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </li>
+                        <li><a href="../sub/map.html">MAP</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sub-banner-->
+
+    <div id="contents">
+        <div class="cont_title">
+            <div class="container">
+                <div class="ct-box">
+                    <em></em>
+                    <h3>찾아오시는 길</h3>
+                </div>
+            </div>
+        </div>
+        <!-- //cont_title -->
+
+    <div id="map" style="width:100%;height:350px;"></div>
+
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=87ddaf409c7625b76b1dfbe05c647b86"></script>
+        <script>
+        var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+            mapOption = { 
+                center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+                level: 3 // 지도의 확대 레벨
+            };
+
+        // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+        var map = new kakao.maps.Map(mapContainer, mapOption); 
+        </script>
+
+
+     <!-- footer -->
+    <div id="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="ft_left">
+                    <h3></h3>
+                        <div>
+                            <p>크린바이오텍주식회사&nbsp&nbsp&nbsp대표이사 : 배윤한&nbsp&nbsp&nbsp사업자등록번호 : 228-88-01075<span></span><br>
+                                TEL : 070-4850-7520&nbsp&nbsp&nbspEmail : cbt1902@cleanbiotech.co.kr
+                                <br>경기도 광주시 오포읍 회안대로 5, C동 3층<span></span><span></span>
+                                <br>Copyright © 2021 CBT Corporation.All rights reserved.</p>
+                        </div>
+                </div>
+                <div class="ft_right">
+                    <div class="ft_right_left">
+                        <h3></h3>
+                        <ul>
+                            <li><a href="#a">개인정보처리방침</a></li>
+                            <li><a href="#a">이용약관</a></li>
+                            <li><a href="#a">이메일무단수집거부</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!--//footer -->
+
+</body>
+</html>
